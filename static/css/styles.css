@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0077b6; /* Fondo azul */
+}
+
+/* Estilos generales para el contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Centrado de texto */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #ffffff; /* Fondo azul */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #ff0000; /* Nombre rojo */
+    margin-bottom: 15px;
+}
+
+/* Estilos para la sección de información de la tienda */
+.store-info {
+    margin: 20px 0;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.card h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #666;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos adicionales */
+.welcome-card {
+    background-color: #f4f9fc;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-card img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.welcome-card ion-card-title {
+    color: red;
+}
+
+/* Estilos para secciones de información */
+.info-tienda,
+.compra,
+.productos {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

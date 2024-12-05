@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <header>
+        <h1 style="color: #ff0000;">Zona de Comics</h1>
+        <img src="{% static 'img/logo.png' %}" alt="Zona de Comics" width="100">
+    </header>
+
+    <main>
+        <section class="store-info">
+            <div class="welcome-card">
+                <h2 style="color: #0077b6;">Bienvenido a Zona de Comics</h2>
+                <p>En nuestra tienda, encontrarás una emocionante selección de cómics y mangas. Desde los clásicos hasta las últimas novedades, tenemos algo para todos los fanáticos.</p>
+            </div>
+        </section>
+
+        <section class="info-tienda">
+            <h2>Información de la Tienda</h2>
+            <p>Aquí puedes dar un vistazo más detallado sobre nuestra tienda de cómics y mangas.</p>
+        </section>
+
+        <section class="screenshot-gallery">
+            <div class="screenshot-carousel">
+                <div>
+                    <img src="{% static 'img/login.png' %}" alt="Pantalla de Inicio de Sesión">
+                </div>
+                <div>
+                    <img src="{% static 'img/registro.png' %}" alt="Pantalla de Registro">
+                </div>
+                <div>
+                    <img src="{% static 'img/home.png' %}" alt="Pantalla de Inicio">
+                </div>
+                <div>
+                    <img src="{% static 'img/destacados.png' %}" alt="Pantalla de Destacados">
+                </div>
+                <div>
+                    <img src="{% static 'img/mangas.png' %}" alt="Pantalla de Mangas">
+                </div>
+                <div>
+                    <img src="{% static 'img/dc.png' %}" alt="Pantalla de DC">
+                </div>
+                <div>
+                    <img src="{% static 'img/marvel.png' %}" alt="Pantalla de Marvel">
+                </div>
+                <div>
+                    <img src="{% static 'img/individual.png' %}" alt="Pantalla Individual">
+                </div>
+            </div>
+        </section>
+
+        <section class="compra">
+            <h2>Cómo Comprar</h2>
+            <p>Sigue estos pasos para instalar la App en tu dispositivo movil.</p>
+        </section>
+
+        <section class="productos">
+            <h2>Nuestros Productos</h2>
+            <p>Explora nuestra amplia selección de cómics y mangas.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>&copy; 2024 Zona de Comics. Todos los derechos reservados.</p>
+            <a href="https://github.com/tu-usuario/zona-de-comics">Ver en GitHub</a>
+        </div>
+    </footer>
+</div>
+{% endblock %}
