@@ -63,7 +63,7 @@
             <p>Descubre historias épicas, mundos fantásticos y personajes inolvidables. ¡Es fácil comenzar! Solo sigue estos simples pasos y lleva la magia contigo a todas partes.</p>
             <a href="#" id="download-link" class="descargar-app">Descarga la App Aquí</a>
             <div id="qr-code" class="qr-code" style="display: none;">
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://github.com/tu-usuario/tu-repositorio/releases/download/v1.0.0/app.apk" alt="QR Code para Descarga de App">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://drive.google.com/file/d/1N8SV4Tw7Cki9a4RceDamgEG0mfeXJhcI/view?usp=drive_link" alt="QR Code para Descarga de App">
                 <p>Escanea este código QR desde tu dispositivo móvil para descargar la app.</p>
             </div>
         </section>
@@ -86,7 +86,7 @@
 
             downloadLinks.forEach(function(link, index) {
                 if (isMobile) {
-                    link.href = 'https://github.com/tu-usuario/tu-repositorio/releases/download/v1.0.0/app.apk';
+                    link.href = 'https://drive.google.com/file/d/1N8SV4Tw7Cki9a4RceDamgEG0mfeXJhcI/view?usp=drive_link';
                     link.onclick = function(e) {
                         // Iniciar descarga directa en móvil
                         window.location.href = this.href;
